@@ -1,0 +1,5 @@
+X <- rnorm(100)
+Y <- rnorm(100)
+t.test(X, Y)
+EL.means(X, Y)
+EL.Huber(X, Y)
